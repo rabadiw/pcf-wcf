@@ -105,7 +105,7 @@ Install-Package Steeltoe.Security.Authentication.CloudFoundryWcf -Version 2.2.0
 ```
 
 ## Special case: Integrated Windows Authentication
-As of this writting, the PCF platform does not start app containers within an AD joined host. The PCF SSO Tile can be configured with different Identity Providers; e.g. AD FS, AAD, etc. With the IdP in place and configured, the WCF Service can add the `serviceAuthorization` to secure the entire service with OAuth 2.0 and TLS Offloading. 
+As of this writting, the PCF platform does not start app containers within an AD joined host. The PCF SSO Tile can be configured with different Identity Providers; e.g. AD FS, AAD, etc. With the IdP in place and configured, configure the WCF Service with the `serviceAuthorization` service behavior to secure the entire service with OAuth 2.0 and TLS Offloading. The section to include the `serviceAuthorization` would be under system.serviceModel:behaviors:serviceBehaviors:behavior.
 
 ## Deploy
 To deploy the `src\Demo.WcfServiceApp` app, use the following powershell script. Replace `PivotalSSO` with your SSO tile instance name.
