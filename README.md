@@ -1,4 +1,4 @@
-The purpose of the repo is to demonstrate the following [WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/whats-wcf) HowTos when running on [Pivotal Cloud Foundry](https://pivotal.io/platform). This repo also demonstrates the classes used by [Steeltoe for WCF](https://github.com/SteeltoeOSS/steeltoe/tree/master/src/Security/src/Authentication.CloudFoundryWcf) to add OAuth 2.0 service behavior. 
+The purpose of the repo is to demonstrate the following [WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/whats-wcf) How Tos when running on [Pivotal Cloud Foundry](https://pivotal.io/platform). This repo also demonstrates the classes used by [Steeltoe for WCF](https://github.com/SteeltoeOSS/steeltoe/tree/master/src/Security/src/Authentication.CloudFoundryWcf) to add OAuth 2.0 service behavior. 
 
 ## Folder breakdown
 <pre>
