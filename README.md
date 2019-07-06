@@ -75,7 +75,7 @@ To secure a WCF service transport with TLS Offloading, use [useRequestHeadersFor
 </system.serviceModel>
 ```
 
-## Secure a WCF Service with JWT
+## Secure a WCF Service with OAuth 2.0
 Take note, the following sample uses the project refrence `Steeltoe.ServiceModel.Jwt` as the assembly. For production, use the latest official Steeltoe package.
 ```powershell
 Install-Package Steeltoe.Security.Authentication.CloudFoundryWcf -Version 2.2.0
