@@ -14,14 +14,14 @@ The purpose of the repo is to demonstrate the following [WCF](https://docs.micro
     └───Demo.WcfServiceLibrary
 </pre>
 
-- **tools** - contains a powershell script that demonstrates how to retrieve an AccessToken. It reads the `OAuth 2.0` properties from file `oauth-test.json`. This file is not checked in and you are required to create and fill in the data. Here's a template of the expected properties. See [Setup PCF SSO Tile](#Setup-PCF-SSO-Tile) section for instructions.
-```json
-{
-    "AppID": "00000000-0000-0000-0000-000000000000",
-    "AppSecret": "00000000-0000-0000-0000-000000000000",
-    "OAuthTokenUrl": "https://domain/oauth/token"
-}
-```
+- **tools** - contains a powershell script that demonstrates how to retrieve an AccessToken. It reads the `OAuth 2.0` properties from file `oauth-test.json`. This file is not checked in and you are required to create and fill in the data. See [Setup PCF SSO Tile](#Setup-PCF-SSO-Tile) section for instructions on setup and how to get the values for the below template.
+    ```json
+    {
+        "AppID": "00000000-0000-0000-0000-000000000000",
+        "AppSecret": "00000000-0000-0000-0000-000000000000",
+        "OAuthTokenUrl": "https://domain/oauth/token"
+    }
+    ```
 - **test** - contains test cases that demonstrate usage of the service once deployed. The test are self explanatory and consist of.
     ```csharp
     // Steps to get an access token
