@@ -1,0 +1,12 @@
+﻿---
+applications:
+- name: ((appName))
+  buildpacks:
+   - hwc_buildpack
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  stack: windows
+  path: ./bin/Release/Publish
+  
+  

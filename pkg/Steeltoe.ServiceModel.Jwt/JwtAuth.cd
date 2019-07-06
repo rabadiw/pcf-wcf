@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.AuthServerOptions" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAkAgAAAQAAIQAgBAAAAAAAAIgAAAAA=</HashCode>
+      <FileName>CloudFoundry\AuthServerOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.CloudFoundryDefaults" Collapsed="true">
+    <Position X="4" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAIAAQgJAgAgGAAAADAA0gAIAAAAgAAAAAAQAg=</HashCode>
+      <FileName>CloudFoundry\CloudFoundryDefaults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.CloudFoundryTokenKeyResolver" Collapsed="true">
+    <Position X="4" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAABAgEAAAAgABAAAAAAAAgAAAAAgAAAAAAgI=</HashCode>
+      <FileName>CloudFoundry\CloudFoundryTokenKeyResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.CloudFoundryTokenValidator" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>CloudFoundry\CloudFoundryTokenValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.Wcf.CloudFoundryJwt" Collapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAEAAAAAAIAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CloudFoundry\CloudFoundryJwt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.Wcf.CloudFoundryOptions" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAEAARIABEAAAAAAAAgAUAAAQQAAAAAAAo=</HashCode>
+      <FileName>CloudFoundry\CloudFoundryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.Wcf.CloudFoundryWcfTokenValidator" Collapsed="true">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAIAAAACAAAAAAgABAAAA=</HashCode>
+      <FileName>CloudFoundry\CloudFoundryWcfTokenValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Security.Authentication.CloudFoundry.Wcf.JwtAuthorizationManager">
+    <Position X="3.75" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAQAAAAAAAAAAAAgAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>CloudFoundry\JwtAuthorizationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Common.Http.HttpClientHelper" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAEAAAAgABIAAQAAAAAAEBAAAAAAAAAQg=</HashCode>
+      <FileName>CloudFoundry\HttpClientHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Steeltoe.Common.Platform" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEIAAAAAAAAAAAAQgAABAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CloudFoundry\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
