@@ -350,3 +350,6 @@ MigrationBackup/
 
 tools/*.json
 appSettings.config
+
+# JetBrains
+.idea
