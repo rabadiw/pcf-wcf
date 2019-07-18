@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EDC3A074-06FB-4A5F-8BC3-5E22B192D207}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WcfServiceTest", "Z:\Documents\proj\github.com\rabadiw\pcf-wcf\test\Demo.Wcf.ServiceTest\Demo.WcfServiceTest.csproj", "{2A06E1F6-8224-4F5D-AB4E-074AEF6C898D}"
