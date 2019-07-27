@@ -1,6 +1,6 @@
 $basePath = (Split-Path $Script:PSCommandPath)
 $oauthData = (Get-Content $basePath\oauth-test.json | ConvertFrom-Json)
-$oauth_token_url = $oauthData.OAuthTokenUrl
+$auth_domain = $oauthData.AuthDomain
 $client_id = $oauthData.AppID
 $client_secret = $oauthData.AppSecret
 
@@ -14,6 +14,4 @@ $Body = @{
 Invoke-RestMethod `
     -Method Post `
     -Body $Body `
-    -Uri ${oauth_token_url} | ConvertTo-Json
-
-    
+    -Uri "${auth_domain}/oauth/token" | ConvertTo-Json 
