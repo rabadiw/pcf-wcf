@@ -19,7 +19,7 @@ The purpose of the repo is to demonstrate the following [WCF](https://docs.micro
     {
         "AppID": "00000000-0000-0000-0000-000000000000",
         "AppSecret": "00000000-0000-0000-0000-000000000000",
-        "OAuthTokenUrl": "https://domain/oauth/token"
+        "AuthDomain": "https://auth.domain"
     }
     ```
 - **test** - contains test cases that demonstrate usage of the service once deployed. The test are self explanatory and consist of.
