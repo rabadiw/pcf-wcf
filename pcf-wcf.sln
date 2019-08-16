@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WcfServiceTest", "test\Demo.Wcf.ServiceTest\Demo.WcfServiceTest.csproj", "{2A06E1F6-8224-4F5D-AB4E-074AEF6C898D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WcfServiceTest", "tests\Demo.Wcf.ServiceTests\Demo.WcfServiceTests.csproj", "{2A06E1F6-8224-4F5D-AB4E-074AEF6C898D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Steeltoe.ServiceModel.Jwt", "pkg\Steeltoe.ServiceModel.Jwt\Steeltoe.ServiceModel.Jwt.csproj", "{EF2C9F00-676D-4431-9C54-971DD4CFC133}"
 EndProject
